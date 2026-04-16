@@ -1,0 +1,169 @@
+{
+  "_meta": {
+    "candidate": "G",
+    "stage": "medium-filler-variant",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Vikram Gupta",
+      "email": "vikram.gupta@example.com",
+      "phone": "+91 98244 13355",
+      "location": "Chennai, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "Cure.fit",
+        "title": "Software Engineering Intern",
+        "location": "Bengaluru",
+        "startDate": "Jun 2024",
+        "endDate": "Aug 2024",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Built a trainer-availability service that now powers live-class booking for 400k+ users.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Fixed flakiness in the mobile-app E2E test suite, bringing pass rate from 72% to 96%.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Technologies used: TypeScript, React Native, Node.js.",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "company": "Zomato",
+        "title": "DevOps Intern",
+        "location": "Gurgaon",
+        "startDate": "Jan 2024",
+        "endDate": "Apr 2024",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Migrated 12 legacy services from in-house Kubernetes to EKS; reduced pod cold-start p95 by ~40%.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          },
+          {
+            "id": "exp_2_b_2",
+            "text": "Automated the staging-environment provisioner so PR authors get a preview deployment per PR.",
+            "status": "original",
+            "grounded_in": "exp_2_b_2"
+          },
+          {
+            "id": "exp_2_b_3",
+            "text": "Technologies used: AWS EKS, Terraform, Helm, Argo CD.",
+            "status": "original",
+            "grounded_in": "exp_2_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_3",
+        "company": "SRM IEEE Student Branch",
+        "title": "Technical Lead",
+        "startDate": "Aug 2023",
+        "endDate": "May 2024",
+        "bullets": [
+          {
+            "id": "exp_3_b_1",
+            "text": "Led a 12-person team organizing the annual tech fest; 600+ participants across 4 workshops.",
+            "status": "original",
+            "grounded_in": "exp_3_b_1"
+          },
+          {
+            "id": "exp_3_b_2",
+            "text": "Built the event website and registration pipeline in 3 weeks.",
+            "status": "original",
+            "grounded_in": "exp_3_b_2"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "prj_1",
+        "name": "shrtly",
+        "description": "A minimal URL shortener with per-link analytics.",
+        "bullets": [
+          {
+            "id": "prj_1_b_1",
+            "text": "Supports custom slugs and UTM overrides.",
+            "status": "original",
+            "grounded_in": "prj_1_b_1"
+          },
+          {
+            "id": "prj_1_b_2",
+            "text": "Deployed on Vercel with a Postgres backend.",
+            "status": "original",
+            "grounded_in": "prj_1_b_2"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "SRM Institute of Science and Technology",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "startDate": "2020",
+        "endDate": "2024",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "TypeScript",
+          "Python",
+          "Go"
+        ]
+      },
+      {
+        "category": "Frameworks",
+        "items": [
+          "React",
+          "Node.js",
+          "FastAPI"
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Terraform",
+          "Docker",
+          "Helm",
+          "Argo CD"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

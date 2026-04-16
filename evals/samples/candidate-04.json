@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "candidate": "D",
+    "stage": "medium-filler",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Sneha Iyer",
+      "email": "sneha.iyer@example.com",
+      "phone": "+91 93211 88776",
+      "location": "Pune, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "other",
+          "url": "https://example.com/blog",
+          "label": "Blog"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "Atlassian",
+        "title": "Software Engineering Intern",
+        "location": "Bengaluru",
+        "startDate": "May 2024",
+        "endDate": "Aug 2024",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Worked on a refactor of the Jira notifications service, migrating from a monolith to a worker-pool architecture.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Added new audit-log entries and fixed issues in the onboarding tour.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Technologies used: Java, Kotlin, AWS SQS, DynamoDB.",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "company": "Apache Arrow",
+        "title": "Open Source Contributor",
+        "startDate": "Jan 2024",
+        "endDate": "Apr 2024",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Contributed patches to the C++ implementation, including a few compute-kernel fixes.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          },
+          {
+            "id": "exp_2_b_2",
+            "text": "Technologies used: C++, CMake, Parquet.",
+            "status": "original",
+            "grounded_in": "exp_2_b_2"
+          }
+        ]
+      },
+      {
+        "id": "exp_3",
+        "company": "Manipal Institute of Technology",
+        "title": "Research Assistant",
+        "startDate": "Aug 2023",
+        "endDate": "Apr 2024",
+        "bullets": [
+          {
+            "id": "exp_3_b_1",
+            "text": "Assisted a faculty member on an ML for healthcare project; ran experiments and helped write the paper.",
+            "status": "original",
+            "grounded_in": "exp_3_b_1"
+          },
+          {
+            "id": "exp_3_b_2",
+            "text": "Co-authored a workshop paper.",
+            "status": "original",
+            "grounded_in": "exp_3_b_2"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "prj_1",
+        "name": "melodyfind",
+        "description": "A music recommender using collaborative filtering.",
+        "bullets": [
+          {
+            "id": "prj_1_b_1",
+            "text": "Trained on the Spotify dataset; recommends 10 songs given a seed track.",
+            "status": "original",
+            "grounded_in": "prj_1_b_1"
+          },
+          {
+            "id": "prj_1_b_2",
+            "text": "Deployed as a Streamlit app for demos.",
+            "status": "original",
+            "grounded_in": "prj_1_b_2"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "Manipal Institute of Technology",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "startDate": "2021",
+        "endDate": "2025",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "Java",
+          "Kotlin",
+          "Python",
+          "C++"
+        ]
+      },
+      {
+        "category": "Frameworks & Tools",
+        "items": [
+          "Spring",
+          "Streamlit",
+          "Docker",
+          "Git"
+        ]
+      },
+      {
+        "category": "Cloud",
+        "items": [
+          "AWS",
+          "GCP"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

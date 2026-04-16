@@ -1,0 +1,184 @@
+{
+  "_meta": {
+    "candidate": "A",
+    "stage": "strong-grad",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@example.com",
+      "phone": "+91 98111 22233",
+      "location": "Bengaluru, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        },
+        {
+          "type": "portfolio",
+          "url": "https://example.com/portfolio",
+          "label": "Portfolio"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "Tradelane",
+        "title": "Software Engineer",
+        "location": "Bengaluru",
+        "startDate": "Jul 2024",
+        "endDate": "Present",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Designed and shipped a realtime order-matching service in Go handling ~2M events/day, cutting p99 latency from 180ms to 42ms.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Led migration of authentication stack from session cookies to JWT-based flow across 7 services with zero downtime.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Reduced AWS spend 22% by profiling Celery workers and rightsizing EC2 fleet (saved ~$4.5k/month).",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          },
+          {
+            "id": "exp_1_b_4",
+            "text": "Technologies used: Go, Python, PostgreSQL, Redis, AWS, Terraform.",
+            "status": "original",
+            "grounded_in": "exp_1_b_4"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "company": "Razorpay",
+        "title": "Software Engineering Intern",
+        "location": "Bengaluru",
+        "startDate": "May 2023",
+        "endDate": "Aug 2023",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Built webhook retry pipeline that recovered 99.7% of failed deliveries within 30s.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          },
+          {
+            "id": "exp_2_b_2",
+            "text": "Instrumented the merchant dashboard with OpenTelemetry, exposing 14 new product metrics.",
+            "status": "original",
+            "grounded_in": "exp_2_b_2"
+          },
+          {
+            "id": "exp_2_b_3",
+            "text": "Technologies used: Python, Django, Kafka, Grafana.",
+            "status": "original",
+            "grounded_in": "exp_2_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_3",
+        "company": "IIT Roorkee CS Dept",
+        "title": "Research Intern",
+        "startDate": "Jan 2023",
+        "endDate": "Apr 2023",
+        "bullets": [
+          {
+            "id": "exp_3_b_1",
+            "text": "Implemented a graph-partitioning algorithm in C++ for a parallel-computing lab, reducing job runtime 1.8x on benchmark workloads.",
+            "status": "original",
+            "grounded_in": "exp_3_b_1"
+          },
+          {
+            "id": "exp_3_b_2",
+            "text": "Co-authored an internal write-up on cache-aware partitioning; paper submitted to a workshop.",
+            "status": "original",
+            "grounded_in": "exp_3_b_2"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "prj_1",
+        "name": "kv-lite",
+        "link": "https://example.com/kv-lite",
+        "bullets": [
+          {
+            "id": "prj_1_b_1",
+            "text": "A distributed in-memory key-value store in Go with Raft-based replication across 5 nodes.",
+            "status": "original",
+            "grounded_in": "prj_1_b_1"
+          },
+          {
+            "id": "prj_1_b_2",
+            "text": "Uses a custom WAL with 2-phase commit for durability; achieves ~80k writes/sec on a 3-node cluster.",
+            "status": "original",
+            "grounded_in": "prj_1_b_2"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "IIT Roorkee",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "startDate": "Aug 2020",
+        "endDate": "May 2024",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "Go",
+          "Python",
+          "C++",
+          "TypeScript",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Backend & Infra",
+        "items": [
+          "PostgreSQL",
+          "Redis",
+          "Kafka",
+          "AWS",
+          "Terraform",
+          "Docker"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "Grafana",
+          "OpenTelemetry",
+          "Linux"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

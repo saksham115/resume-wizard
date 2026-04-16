@@ -1,0 +1,169 @@
+{
+  "_meta": {
+    "candidate": "F",
+    "stage": "exp-plus-ssc-filler",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Ananya Reddy",
+      "email": "ananya.reddy@example.com",
+      "phone": "+91 87654 32109",
+      "location": "Hyderabad, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        },
+        {
+          "type": "other",
+          "url": "https://example.com/blog",
+          "label": "Blog"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "MLH Fellowship",
+        "title": "Fellow",
+        "startDate": "Feb 2024",
+        "endDate": "May 2024",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Contributed 17 merged PRs to the Backstage OSS project, focused on the software-catalog plugin.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Reviewed 40+ PRs as part of the PR-review rotation; led a cohort of 8 fellows weekly.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Co-authored a guide to contributing to Backstage which now lives in the official docs.",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "company": "Salesforce",
+        "title": "Software Engineering Intern",
+        "location": "Hyderabad",
+        "startDate": "May 2023",
+        "endDate": "Aug 2023",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Built a dashboard-widget framework that ~60 internal teams now use; saved ~1.5 engineer-weeks per team rollout.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          },
+          {
+            "id": "exp_2_b_2",
+            "text": "Migrated the widget build pipeline from Jenkins to GitHub Actions, cutting CI time from 18min to 6min.",
+            "status": "original",
+            "grounded_in": "exp_2_b_2"
+          },
+          {
+            "id": "exp_2_b_3",
+            "text": "Technologies used: TypeScript, React, GraphQL, Apex.",
+            "status": "original",
+            "grounded_in": "exp_2_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_3",
+        "company": "Osmania University",
+        "title": "Teaching Assistant",
+        "startDate": "Jan 2023",
+        "endDate": "Dec 2023",
+        "bullets": [
+          {
+            "id": "exp_3_b_1",
+            "text": "Ran weekly tutorial sections for a Data Structures class of 80+ students across 2 sections.",
+            "status": "original",
+            "grounded_in": "exp_3_b_1"
+          },
+          {
+            "id": "exp_3_b_2",
+            "text": "Designed 3 assignments that are still part of the syllabus.",
+            "status": "original",
+            "grounded_in": "exp_3_b_2"
+          }
+        ]
+      }
+    ],
+    "projects": [],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "Osmania University",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "startDate": "2020",
+        "endDate": "2024",
+        "bullets": []
+      },
+      {
+        "id": "edu_2",
+        "institution": "State Polytechnic",
+        "degree": "Diploma",
+        "field": "Computer Engineering",
+        "startDate": "2017",
+        "endDate": "2020",
+        "bullets": []
+      },
+      {
+        "id": "edu_3",
+        "institution": "State Board",
+        "degree": "SSC (10th)",
+        "startDate": "2015",
+        "endDate": "2017",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "TypeScript",
+          "Python",
+          "Go"
+        ]
+      },
+      {
+        "category": "Frameworks",
+        "items": [
+          "React",
+          "Node.js",
+          "GraphQL"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "GitHub Actions",
+          "Jenkins",
+          "Docker"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

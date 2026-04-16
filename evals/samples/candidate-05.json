@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "candidate": "E",
+    "stage": "oss-bare-list",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Kabir Singh",
+      "email": "kabir.singh@example.com",
+      "phone": "+91 90345 67890",
+      "location": "Delhi, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "ShareChat",
+        "title": "SDE Intern",
+        "location": "Bengaluru",
+        "startDate": "May 2024",
+        "endDate": "Aug 2024",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Rebuilt the moderator-dashboard search with ElasticSearch, improving p95 query time from 2.1s to 310ms.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Shipped a batch-labeling tool that reduced the content-safety team's workload by ~6 hours/week.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Technologies used: Python, ElasticSearch, FastAPI, React.",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "title": "Open Source Contributor",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Contributed patches to: Kubernetes, Helm, Kyverno, Tekton, Podman. Pull Requests.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "prj_1",
+        "name": "Heatmap",
+        "description": "Visualize commit frequency per file over time.",
+        "bullets": [
+          {
+            "id": "prj_1_b_1",
+            "text": "Parses any git repo locally and generates a per-file heatmap.",
+            "status": "original",
+            "grounded_in": "prj_1_b_1"
+          },
+          {
+            "id": "prj_1_b_2",
+            "text": "Written in Rust with a D3 frontend.",
+            "status": "original",
+            "grounded_in": "prj_1_b_2"
+          }
+        ]
+      },
+      {
+        "id": "prj_2",
+        "name": "coldstart-cli",
+        "description": "A tiny CLI that scaffolds a Node project with sensible defaults.",
+        "bullets": [
+          {
+            "id": "prj_2_b_1",
+            "text": "Installs ESLint, Prettier, TypeScript, Vitest in one command.",
+            "status": "original",
+            "grounded_in": "prj_2_b_1"
+          },
+          {
+            "id": "prj_2_b_2",
+            "text": "Pre-configured GitHub Actions for CI.",
+            "status": "original",
+            "grounded_in": "prj_2_b_2"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "University of Delhi",
+        "degree": "B.Sc",
+        "field": "Computer Science",
+        "startDate": "2021",
+        "endDate": "2024",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "Python",
+          "Rust",
+          "Go",
+          "TypeScript"
+        ]
+      },
+      {
+        "category": "Infra",
+        "items": [
+          "Kubernetes",
+          "Helm",
+          "Docker",
+          "ElasticSearch"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "GitHub Actions",
+          "Prometheus"
+        ]
+      },
+      {
+        "category": "Spoken Languages",
+        "items": [
+          "English (IELTS 8.0)",
+          "Hindi (Native)",
+          "Spanish (A2)"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "candidate": "B",
+    "stage": "thin-early-career",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "phone": "+91 91234 56789",
+      "location": "Noida, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "a small startup in Noida",
+        "title": "Software Developer Intern",
+        "startDate": "Jun 2024",
+        "endDate": "Aug 2024",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "During my internship I was responsible for working on various features of the company's website using React and Node. I learned a lot about web development.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "prj_1",
+        "name": "Todo App",
+        "bullets": [
+          {
+            "id": "prj_1_b_1",
+            "text": "Built a todo list application using React for the frontend.",
+            "status": "original",
+            "grounded_in": "prj_1_b_1"
+          },
+          {
+            "id": "prj_1_b_2",
+            "text": "Used localStorage to persist data between sessions.",
+            "status": "original",
+            "grounded_in": "prj_1_b_2"
+          }
+        ]
+      },
+      {
+        "id": "prj_2",
+        "name": "Weather Dashboard",
+        "bullets": [
+          {
+            "id": "prj_2_b_1",
+            "text": "Uses OpenWeather API to show weather for any city.",
+            "status": "original",
+            "grounded_in": "prj_2_b_1"
+          },
+          {
+            "id": "prj_2_b_2",
+            "text": "Implemented dark mode toggle.",
+            "status": "original",
+            "grounded_in": "prj_2_b_2"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "Amity University",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "startDate": "2021",
+        "endDate": "2025",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Programming",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node"
+        ]
+      },
+      {
+        "category": "Other",
+        "items": [
+          "Git",
+          "MongoDB"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}

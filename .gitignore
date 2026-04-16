@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code per-project state
+.claude/
+
+# Client-proprietary spec — do not commit
+Conversational AI based Resume Builder Tool*.pdf

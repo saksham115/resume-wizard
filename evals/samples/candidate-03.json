@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "candidate": "C",
+    "stage": "strong-exp-no-projects",
+    "synthetic": true
+  },
+  "cv": {
+    "personal": {
+      "name": "Arjun Kapoor",
+      "email": "arjun.kapoor@example.com",
+      "phone": "+91 99887 66554",
+      "location": "Hyderabad, India",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://example.com/linkedin",
+          "label": "LinkedIn"
+        },
+        {
+          "type": "github",
+          "url": "https://example.com/github",
+          "label": "GitHub"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "exp_1",
+        "company": "Groww",
+        "title": "Backend Engineer",
+        "location": "Bengaluru",
+        "startDate": "Jul 2024",
+        "endDate": "Present",
+        "bullets": [
+          {
+            "id": "exp_1_b_1",
+            "text": "Designed and shipped a rewritten order-book service in Java handling 10x peak load at half the pod count.",
+            "status": "original",
+            "grounded_in": "exp_1_b_1"
+          },
+          {
+            "id": "exp_1_b_2",
+            "text": "Partnered with the broker-ops team to add pre-trade risk checks that cut rejected orders 34% in two weeks.",
+            "status": "original",
+            "grounded_in": "exp_1_b_2"
+          },
+          {
+            "id": "exp_1_b_3",
+            "text": "Introduced synthetic-transaction probes for critical user journeys; detected 4 incidents before customer impact.",
+            "status": "original",
+            "grounded_in": "exp_1_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_2",
+        "company": "PhonePe",
+        "title": "SDE Intern",
+        "location": "Bengaluru",
+        "startDate": "May 2023",
+        "endDate": "Jul 2023",
+        "bullets": [
+          {
+            "id": "exp_2_b_1",
+            "text": "Built a KYC-document OCR pipeline with confidence scoring, reducing manual review queue 45%.",
+            "status": "original",
+            "grounded_in": "exp_2_b_1"
+          },
+          {
+            "id": "exp_2_b_2",
+            "text": "Contributed to the merchant-settlement reconciliation service; caught a bug that had been silently dropping ~0.2% of entries.",
+            "status": "original",
+            "grounded_in": "exp_2_b_2"
+          },
+          {
+            "id": "exp_2_b_3",
+            "text": "Presented findings to the platform-engineering guild (~40 engineers).",
+            "status": "original",
+            "grounded_in": "exp_2_b_3"
+          }
+        ]
+      },
+      {
+        "id": "exp_3",
+        "company": "VIT ACM Student Chapter",
+        "title": "Core Team Member",
+        "location": "Vellore",
+        "startDate": "Jan 2022",
+        "endDate": "Apr 2024",
+        "bullets": [
+          {
+            "id": "exp_3_b_1",
+            "text": "Ran the competitive-programming track; organized 6 contests attended by 400+ students across the university.",
+            "status": "original",
+            "grounded_in": "exp_3_b_1"
+          },
+          {
+            "id": "exp_3_b_2",
+            "text": "Mentored 20 freshers weekly on data structures and algorithms; 4 of them later cleared Google/Atlassian interviews.",
+            "status": "original",
+            "grounded_in": "exp_3_b_2"
+          }
+        ]
+      }
+    ],
+    "projects": [],
+    "education": [
+      {
+        "id": "edu_1",
+        "institution": "VIT Vellore",
+        "degree": "B.Tech",
+        "field": "Electronics & Communication",
+        "startDate": "2020",
+        "endDate": "2024",
+        "bullets": []
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          "Java",
+          "Python",
+          "Go",
+          "SQL"
+        ]
+      },
+      {
+        "category": "Backend & Infra",
+        "items": [
+          "Spring Boot",
+          "gRPC",
+          "Kafka",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "Grafana",
+          "Jenkins",
+          "AWS"
+        ]
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "custom": []
+  }
+}
