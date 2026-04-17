@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useSession as useAuthSession, signOut } from "next-auth/react";
 import { useSession } from "@/lib/cv/store";
 import { PhaseIndicator } from "./PhaseIndicator";
 import { ChatPane } from "./ChatPane";
@@ -10,6 +11,7 @@ import { PrintGuidanceOverlay } from "@/components/export/PrintGuidanceOverlay";
 import { track } from "@/lib/funnel";
 
 export function Workspace() {
+  const { data: authSession } = useAuthSession();
   const score = useSession((s) => s.score);
   const name = useSession((s) => s.cv.personal.name);
   const phase = useSession((s) => s.phase);
@@ -61,10 +63,10 @@ export function Workspace() {
       <header className="no-print flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 px-5 py-3 text-sm">
         <div className="flex items-center gap-3">
           <Link
-            href="/"
+            href="/dashboard"
             className="text-xs font-medium uppercase tracking-wider text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200"
           >
-            AI CV Builder
+            ← Dashboard
           </Link>
           {name && (
             <>
@@ -121,6 +123,25 @@ export function Workspace() {
           >
             Start over
           </button>
+          {authSession?.user && (
+            <>
+              <span className="text-zinc-300 dark:text-zinc-700">|</span>
+              {authSession.user.image && (
+                <img
+                  src={authSession.user.image}
+                  alt=""
+                  className="h-5 w-5 rounded-full"
+                />
+              )}
+              <button
+                type="button"
+                onClick={() => signOut({ callbackUrl: "/" })}
+                className="hover:text-zinc-800 dark:hover:text-zinc-200"
+              >
+                Sign out
+              </button>
+            </>
+          )}
         </div>
       </header>
 
