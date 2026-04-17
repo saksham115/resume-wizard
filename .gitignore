@@ -46,3 +46,5 @@ next-env.d.ts
 
 # Client-proprietary spec — do not commit
 Conversational AI based Resume Builder Tool*.pdf
+temp_auto_push.bat
+temp_interactive_push.bat
