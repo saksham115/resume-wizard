@@ -17,9 +17,11 @@ type SessionState = {
   phase: Phase;
   messages: Message[];
   score: Score | null;
+  resumeId: string | null;
   setPhase: (phase: Phase) => void;
   setCv: (cv: CV) => void;
   setScore: (score: Score) => void;
+  setResumeId: (id: string | null) => void;
   addMessage: (msg: Message) => void;
   updateLastAssistantMessage: (appendText: string) => void;
   applyPatches: (patches: Patch[]) => void;
@@ -42,12 +44,13 @@ const PHASE_ORDER: Phase[] = [
 
 const initial = (): Pick<
   SessionState,
-  "cv" | "phase" | "messages" | "score"
+  "cv" | "phase" | "messages" | "score" | "resumeId"
 > => ({
   cv: emptyCV(),
   phase: "upload",
   messages: [],
   score: null,
+  resumeId: null,
 });
 
 export const useSession = create<SessionState>()(
@@ -55,6 +58,7 @@ export const useSession = create<SessionState>()(
     (set) => ({
       ...initial(),
       setPhase: (phase) => set({ phase }),
+      setResumeId: (id) => set({ resumeId: id }),
       // Replacing the CV invalidates everything derived from it — score and
       // chat history are tied to the previous CV content.
       setCv: (cv) => set({ cv, score: null, messages: [] }),
