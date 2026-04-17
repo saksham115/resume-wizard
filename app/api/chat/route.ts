@@ -43,6 +43,7 @@ import {
   rateLimitResponse,
 } from "@/lib/rate-limit";
 import { z } from "zod";
+import { requireAuth } from "@/lib/auth-guard";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -56,6 +57,8 @@ const BodySchema = z.object({
 const CHAT_LIMIT_PER_MIN = 60;
 
 export async function POST(req: Request) {
+  try { await requireAuth(); } catch (e) { if (e instanceof Response) return e; }
+
   const rl = checkRateLimit(
     `chat:${getClientKey(req)}`,
     CHAT_LIMIT_PER_MIN

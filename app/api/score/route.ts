@@ -8,11 +8,14 @@ import {
 } from "@/lib/pellet";
 import { CVSchema, ScoreSchema } from "@/lib/cv-schema";
 import { SCORE_SYSTEM, scoreUserPrompt } from "@/lib/prompts/score";
+import { requireAuth } from "@/lib/auth-guard";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
 
 export async function POST(req: Request) {
+  try { await requireAuth(); } catch (e) { if (e instanceof Response) return e; }
+
   try {
     assertPelletKey();
   } catch (e) {

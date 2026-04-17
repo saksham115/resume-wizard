@@ -14,6 +14,7 @@ import {
   getClientKey,
   rateLimitResponse,
 } from "@/lib/rate-limit";
+import { requireAuth } from "@/lib/auth-guard";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -22,6 +23,7 @@ const MIN_TEXT_LEN = 50;
 const EXTRACT_LIMIT_PER_MIN = 10;
 
 export async function POST(req: Request) {
+  try { await requireAuth(); } catch (e) { if (e instanceof Response) return e; }
   const rl = checkRateLimit(
     `extract:${getClientKey(req)}`,
     EXTRACT_LIMIT_PER_MIN
